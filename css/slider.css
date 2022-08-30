@@ -1,12 +1,3 @@
-body{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-    overflow: hidden;
-}
-
 .slide-container-2 {
     width: 100%;
     height:85vh;
