@@ -27,8 +27,8 @@
 
 .img{
     position: relative;
-    max-width: 100%;
-    height: auto;
+    width: auto;
+    height: 420;
     transition: 0.5s;
 }
 
