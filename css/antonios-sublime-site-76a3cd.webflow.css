@@ -775,12 +775,6 @@ a {
 
 .navbar-logo-center-container.shadow-three {
   z-index: 99999;
-  width: 100%;
-}
-
-.navbar-logo-center-container.shadow-three {
-  width: 100%;
-  max-width: 1140px;
 }
 
 .navbar-wrapper-three {
