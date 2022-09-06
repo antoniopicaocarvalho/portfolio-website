@@ -30,6 +30,7 @@
   padding: 12px;
 }
 .image-content{
+  padding: 10px;
   position: relative;
   row-gap: 5px;
 }
