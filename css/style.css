@@ -18,10 +18,6 @@
 .slide-content{
   margin: 0 60px;
   overflow: hidden;
-  border-radius: 25px;
-}
-.card{
-  border-radius: 18px;
 }
 .image-content{
   display: flex;
@@ -29,11 +25,12 @@
   flex-direction: column;
   align-items: center;
   padding: 12px;
+  background-color: red;
 }
 .card-image{
   position: relative;
   height: 100%;
-  width: 18vw;
+  width: 20vw;
 }
 .card-img{
   border-radius: 18px;
@@ -69,11 +66,53 @@
   background-color: #4070F4;
 }
 
-@media screen and (max-width: 768px) {
+/*TABLET*/
+@media screen and (max-width: 912px) {
+  .card-img{
+    border-radius: 16px;
+    box-shadow: 0 0px 12px 0 rgba(0, 0, 0, 0.15);
+  }
   .slide-content{
-    margin: 0 10px;
+    margin: 0 40px;
+  }
+  .card-image{
+    position: relative;
+    height: 100%;
+    width: 22vw;
+  }
+}
+
+/*PHONE LANDSCAPE*/
+@media screen and (max-width: 600px) {
+  .card-img{
+    border-radius: 12px;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.15);
   }
   .swiper-navBtn{
     display: none;
+  }
+  .slide-content{
+    margin: 0 20px;
+  }
+  .card-image{
+    position: relative;
+    height: 100%;
+    width: 24vw;
+  }
+}
+
+/*PHONE PORTRAIT*/
+@media screen and (max-width: 428px) {
+  .card-img{
+    border-radius: 8px;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.15);
+  }
+  .slide-content{
+    margin: 0 10px;
+  }
+  .card-image{
+    position: relative;
+    height: 100%;
+    width: 28vw;
   }
 }
