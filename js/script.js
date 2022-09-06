@@ -15,15 +15,12 @@ var swiper = new Swiper(".slide-content", {
       prevEl: ".swiper-button-prev",
     },
 
-    /*breakpoints:{
+    breakpoints:{
         0: {
-            slidesPerView: 1,
-        },
-        520: {
             slidesPerView: 2,
         },
-        950: {
+        428: {
             slidesPerView: 3,
         },
-    },*/
+    },
   });
