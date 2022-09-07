@@ -30,6 +30,7 @@
   position: relative;
   height: 100%;
   width: 20vw;
+  max-width: 280px;
 }
 .card-img{
   border-radius: 18px;
