@@ -1966,6 +1966,7 @@ a {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
+    align-items: flex-start;
   }
 
   .div-block-20 {
