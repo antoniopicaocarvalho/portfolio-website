@@ -1898,6 +1898,15 @@ a {
     -o-object-position: 0% 50%;
     object-position: 0% 50%;
   }
+  
+  .image-8 {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .div-block-24 {
+    margin-right: 6px;
+  }
 
   .education-h3 {
     font-size: 16px;
